@@ -23,7 +23,7 @@ function TeaList(props) {
 
 TeaList.propTypes = {
   teaList: PropTypes.array,
-  onTeaSelection: PropTypes.fun
+  onTeaSelection: PropTypes.func
 };
 
 export default TeaList;
