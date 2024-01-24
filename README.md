@@ -1,4 +1,4 @@
-# _Tea Shop Inventory Tracker_
+# _Tea-Shop_
 
 #### By _**Will Jolley**_
 
