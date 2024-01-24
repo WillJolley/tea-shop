@@ -17,6 +17,7 @@ Tea.propTypes = {
   variety: PropTypes.string,
   caffeination: PropTypes.string,
   price: PropTypes.string,
+  quantity: PropTypes.number,
   whenTeaClicked: PropTypes.func
 }
 

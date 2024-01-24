@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function TeaDetail(props) {
-  const { ticket, onClickingEdit } = props;
+  const { tea, onClickingEdit } = props;
 
   return (
     <React.Fragment>
@@ -11,6 +11,7 @@ function TeaDetail(props) {
       <h3>Variety: {tea.variety}</h3>
       <h3>Caffeine Level: {tea.caffeination}</h3>
       <h3>Price Per Ounce: {tea.price}</h3>
+      <h3>Quantity: {tea.quantity}oz.</h3>
       <button onClick={onClickingEdit}>Edit Tea</button>
       <hr/>
     </React.Fragment>
