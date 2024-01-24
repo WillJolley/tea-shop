@@ -8,9 +8,10 @@ function NewTeaForm(props) {
     event.preventDefault();
     props.onNewTeaCreation({
       name: event.target.name.value,
-      variety: event.target.location.value,
+      variety: event.target.variety.value,
       caffeination: event.target.caffeination.value,
       price: event.target.price.value,
+      quantity: 130,
       id: v4()
     });
   }
