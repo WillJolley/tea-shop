@@ -11,6 +11,7 @@ function EditTeaForm (props) {
       variety: event.target.variety.value,
       caffeination: event.target.caffeination.value,
       price: event.target.price.value,
+      quantity: tea.quantity,
       id: tea.id
     });
   }
